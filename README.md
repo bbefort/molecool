@@ -10,7 +10,7 @@ A Python package for analyzing and visualizing xyz files.
 ### Copyright
 
 Copyright (c) 2020, Bridgette Befort
-
+12/15/2020
 
 #### Acknowledgements
  
