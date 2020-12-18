@@ -26,7 +26,6 @@ steps:
 - uses: mscoutermarsh/ascii-art-action@1.0.1
 with:
 text: 'Welcome to molecool'
-
   test:
     name: Test on ${{ matrix.os }}, Python ${{ matrix.python-version }}
     runs-on: ${{ matrix.os }}
