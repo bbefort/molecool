@@ -14,13 +14,13 @@ on:
       - "main"
 
 jobs:
-    welcome:
-        name: Welcome the user with ASCII art
-        runs-on: ubuntu-latest
-        steps:
-            - uses: mscoutermarsh/ascii-art-action@1.0.1
-            with:
-                text: 'Welcome to molecool'
+  welcome:
+    name: Welcome the user with ASCII art
+    runs-on: ubuntu-latest
+    steps:
+    - uses: mscoutermarsh/ascii-art-action@1.0.1
+      with:
+        text: 'Welcome to molecool'
 
   test:
     name: Test on ${{ matrix.os }}, Python ${{ matrix.python-version }}
